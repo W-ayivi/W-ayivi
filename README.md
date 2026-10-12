@@ -3,14 +3,16 @@
 </p>
 
 <p align="center">
-  <a href="mailto:williamsayivi@gmail.com"><img src="https://img.shields.io/badge/Email-Contact_me-167D8D?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="mailto:williamsayivi@gmail.com"><img src="https://img.shields.io/badge/Email-Contact_me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://scholar.google.com/citations?hl=en&user=F-L0vowAAAAJ"><img src="https://img.shields.io/badge/Google_Scholar-Profile-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar" /></a>
   <a href="https://orcid.org/0009-0009-1982-3625"><img src="https://img.shields.io/badge/ORCID-0009--0009--1982--3625-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID" /></a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Research-Medical_AI-14384D?style=flat-square" alt="Medical AI research" />
-  <img src="https://img.shields.io/badge/Location-Vienna,_Austria-14384D?style=flat-square" alt="Vienna, Austria" />
+  <img src="https://img.shields.io/badge/Research-Medical_AI-7C5CFF?style=flat-square" alt="Medical AI research" />
+  <img src="https://img.shields.io/badge/Ph.D.-UESTC-FF7A59?style=flat-square" alt="Ph.D. UESTC" />
+  <img src="https://img.shields.io/badge/Location-Vienna,_Austria-167D8D?style=flat-square" alt="Vienna, Austria" />
+  <img src="https://img.shields.io/badge/Modalities-MRI_%C2%B7_CT_%C2%B7_X--ray_%C2%B7_Ultrasound-38BDF8?style=flat-square" alt="Imaging modalities" />
 </p>
 
 <p align="center">
@@ -32,6 +34,13 @@ My work covers medical image classification and segmentation, attention mechanis
 
 Alongside research, I work as an IT Manager at Viewpointsystem GmbH in Vienna, where I support enterprise systems, device management, and day-to-day IT operations.
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Selected_publications-8-7C5CFF?style=for-the-badge" alt="8 selected publications" />
+  <img src="https://img.shields.io/badge/Peer_reviewer-6_journals-167D8D?style=for-the-badge" alt="Peer reviewer for 6 journals" />
+  <img src="https://img.shields.io/badge/Ph.D._and_M.Eng.-Rank_1-FF7A59?style=for-the-badge" alt="Rank 1 in Ph.D. and M.Eng." />
+</p>
+
+> [!NOTE]
 > **Research focus**
 > Reliable medical AI · Explainable learning · Edge deployment
 > Image classification and segmentation · Federated learning · Domain generalisation
@@ -49,7 +58,7 @@ Alongside research, I work as an IT Manager at Viewpointsystem GmbH in Vienna, w
 
 Ultra-lightweight attention with bounded, feature-space variance reweighting. The same architecture is trained independently on MRI, CT, and X-ray.
 
-`Lightweight networks` `Robustness` `Edge AI`
+![Lightweight networks](https://img.shields.io/badge/Lightweight_networks-167D8D?style=flat-square) ![Robustness](https://img.shields.io/badge/Robustness-0EA5A4?style=flat-square) ![Edge AI](https://img.shields.io/badge/Edge_AI-14384D?style=flat-square)
 
 </td>
 <td width="50%" valign="top">
@@ -59,7 +68,7 @@ Ultra-lightweight attention with bounded, feature-space variance reweighting. Th
 
 EfficientNetV2-S combined with texture and shape radiomics, with Grad-CAM++ visualisations for inspecting MRI predictions.
 
-`MRI` `Radiomics` `Explainability`
+![MRI](https://img.shields.io/badge/MRI-7C5CFF?style=flat-square) ![Radiomics](https://img.shields.io/badge/Radiomics-A78BFA?style=flat-square) ![Explainability](https://img.shields.io/badge/Explainability-5B3FD9?style=flat-square)
 
 </td>
 </tr>
@@ -71,7 +80,7 @@ EfficientNetV2-S combined with texture and shape radiomics, with Grad-CAM++ visu
 
 Federated learning algorithms tailored to automated segmentation across different medical imaging modalities.
 
-`Federated learning` `Segmentation`
+![Federated learning](https://img.shields.io/badge/Federated_learning-FF7A59?style=flat-square) ![Segmentation](https://img.shields.io/badge/Segmentation-F43F5E?style=flat-square)
 
 </td>
 <td width="50%" valign="top">
@@ -81,7 +90,7 @@ Federated learning algorithms tailored to automated segmentation across differen
 
 Structure tensor-guided wavelet thresholding, learned coherence refinement, and residual-preserving spatial fusion.
 
-`Ultrasound` `Wavelets` `U-Net`
+![Ultrasound](https://img.shields.io/badge/Ultrasound-F59E0B?style=flat-square) ![Wavelets](https://img.shields.io/badge/Wavelets-D97706?style=flat-square) ![U-Net](https://img.shields.io/badge/U--Net-B45309?style=flat-square)
 
 </td>
 </tr>
@@ -97,8 +106,11 @@ Structure tensor-guided wavelet thresholding, learned coherence refinement, and 
 
 - Uses separate learned projections for average- and max-pooled channel descriptors, followed by independent sigmoid activations and multiplicative fusion.
 - Introduces bounded, feature-space local variance-weighted sample reweighting to address intra-class heterogeneity.
-- Applies the same architecture and training template independently to MRI, CT, and X-ray, training from scratch and adapting the output head. These experiments assess structural generality across modalities. They do not imply multimodal fusion or weight transfer.
+- Applies the same architecture and training template independently to MRI, CT, and X-ray, training from scratch and adapting the output head.
 - Includes repeated-run baseline comparisons, component ablations, exploratory statistical analysis, synthetic-corruption evaluation, and latency and power measurements on Raspberry Pi 4, smartphone CPU, and Edge TPU.
+
+> [!NOTE]
+> The three modality experiments assess structural generality. They do not imply multimodal fusion or weight transfer.
 
 **Tools:** Python · PyTorch · Jupyter Notebook · Image preprocessing
 
@@ -139,15 +151,15 @@ Structure tensor-guided wavelet thresholding, learned coherence refinement, and 
 ## Technical toolkit
 
 <p>
-  <img src="https://img.shields.io/badge/Python-14384D?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/PyTorch-14384D?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/OpenCV-14384D?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV" />
-  <img src="https://img.shields.io/badge/scikit--learn-14384D?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
-  <img src="https://img.shields.io/badge/NumPy-14384D?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
-  <img src="https://img.shields.io/badge/Pandas-14384D?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" />
-  <img src="https://img.shields.io/badge/Jupyter-14384D?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter" />
-  <img src="https://img.shields.io/badge/Linux-14384D?style=flat-square&logo=linux&logoColor=white" alt="Linux" />
-  <img src="https://img.shields.io/badge/Microsoft_365-14384D?style=flat-square&logo=microsoft&logoColor=white" alt="Microsoft 365" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
+  <img src="https://img.shields.io/badge/NumPy-4DABCF?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
+  <img src="https://img.shields.io/badge/Pandas-7C5CFF?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/Microsoft_365-D83B01?style=for-the-badge&logo=microsoftoffice&logoColor=white" alt="Microsoft 365" />
 </p>
 
 | Category | Technologies and methods |
@@ -175,19 +187,24 @@ Eight selected publications across medical imaging, biomedical signals, navigati
 <br />
 
 - **A compact and interpretable multi-source framework for heterogeneous medical image classification.**
-  Williams Ayivi, Xiaoling Zhang, Wisdom Xornam Ativi, Francis Sam, and Amil Aligayev. *Scientific Reports*, 2026.
+  Williams Ayivi, Xiaoling Zhang, Wisdom Xornam Ativi, Francis Sam, and Amil Aligayev. *Scientific Reports*, 2026.<br />
+  ![Scientific Reports](https://img.shields.io/badge/Scientific_Reports-2026-7C5CFF?style=flat-square)
 
 - **Multisite T1-weighted MRI classification of Alzheimer's disease using 3D-CNN-HSCAM architecture with contrastive domain adaptation.**
-  Francis Sam, Zhiguang Qin, Collins Sey, Joseph Roger Arhin, Daniel Addo, Linda Delali Fiasam, Williams Ayivi, and Gladys Wavinya Muoka. *Biomedical Signal Processing and Control*, 2026.
+  Francis Sam, Zhiguang Qin, Collins Sey, Joseph Roger Arhin, Daniel Addo, Linda Delali Fiasam, Williams Ayivi, and Gladys Wavinya Muoka. *Biomedical Signal Processing and Control*, 2026.<br />
+  ![BSPC](https://img.shields.io/badge/BSPC-2026-167D8D?style=flat-square)
 
 - **SLEA: a stochastic saccadic lightweight efficient attention framework with MobileNetV2 for robust and explainable 2D medical image classification.**
-  Williams Ayivi, Xiaoling Zhang, and Amil Aligayev. *Physica Scripta*, 2026.
+  Williams Ayivi, Xiaoling Zhang, and Amil Aligayev. *Physica Scripta*, 2026.<br />
+  ![Physica Scripta](https://img.shields.io/badge/Physica_Scripta-2026-FF7A59?style=flat-square)
 
 - **Classification of Gesture Electromyography by Dynamic Mode Decomposition.**
-  Alberta Ashitey, Ayivi Williams, J. A. Toluwani, and R. Peng. *IEEE Access*, 2026.
+  Alberta Ashitey, Ayivi Williams, J. A. Toluwani, and R. Peng. *IEEE Access*, 2026.<br />
+  ![IEEE Access](https://img.shields.io/badge/IEEE_Access-2026-0EA5E9?style=flat-square)
 
 - **CMAF-Net: cross-modal attention fusion with information-theoretic regularization for imbalanced breast cancer histopathology.**
-  Wisdom Xornam Ativi, Wenyu Chen, Lazarus Kwao, Williams Ayivi, Francis Sam, Ali Alqahtani, Yeong Hyeon Gu, and Mugahed A. Al-Antari. *Scientific Reports*, 2026.
+  Wisdom Xornam Ativi, Wenyu Chen, Lazarus Kwao, Williams Ayivi, Francis Sam, Ali Alqahtani, Yeong Hyeon Gu, and Mugahed A. Al-Antari. *Scientific Reports*, 2026.<br />
+  ![Scientific Reports](https://img.shields.io/badge/Scientific_Reports-2026-7C5CFF?style=flat-square)
 
 </details>
 
@@ -197,7 +214,8 @@ Eight selected publications across medical imaging, biomedical signals, navigati
 <br />
 
 - **Dynamic-attentive pooling networks: A hybrid lightweight deep model for lung cancer classification.**
-  Williams Ayivi, Xiaoling Zhang, Wisdom Xornam Ativi, Francis Sam, and Franck A. P. Kouassi. *Journal of Imaging*, 2025.
+  Williams Ayivi, Xiaoling Zhang, Wisdom Xornam Ativi, Francis Sam, and Franck A. P. Kouassi. *Journal of Imaging*, 2025.<br />
+  ![Journal of Imaging](https://img.shields.io/badge/Journal_of_Imaging-2025-F59E0B?style=flat-square)
 
 </details>
 
@@ -207,10 +225,12 @@ Eight selected publications across medical imaging, biomedical signals, navigati
 <br />
 
 - **RPNet: Rotational pooling net for efficient micro aerial vehicle trail navigation.**
-  Isaac Osei Agyemang, Xiaoling Zhang, Daniel Acheampong, Isaac Adjei-Mensah, Enoch Opanin Gyamfi, Joseph Roger Arhin, Williams Ayivi, and Chikwendu Ijeoma Amuche. *Engineering Applications of Artificial Intelligence*, 2022.
+  Isaac Osei Agyemang, Xiaoling Zhang, Daniel Acheampong, Isaac Adjei-Mensah, Enoch Opanin Gyamfi, Joseph Roger Arhin, Williams Ayivi, and Chikwendu Ijeoma Amuche. *Engineering Applications of Artificial Intelligence*, 2022.<br />
+  ![EAAI](https://img.shields.io/badge/EAAI-2022-10B981?style=flat-square)
 
 - **Quantitative dynamics effects of belt and road economies trade using structural gravity and neural networks.**
-  Koffi Dumor, Li Yao, Jean-Paul Ainam, Edem Koffi Amouzou, and Williams Ayivi. *SAGE Open*, 2021.
+  Koffi Dumor, Li Yao, Jean-Paul Ainam, Edem Koffi Amouzou, and Williams Ayivi. *SAGE Open*, 2021.<br />
+  ![SAGE Open](https://img.shields.io/badge/SAGE_Open-2021-EC4899?style=flat-square)
 
 </details>
 
@@ -219,7 +239,8 @@ Eight selected publications across medical imaging, biomedical signals, navigati
 ## Research and professional experience
 
 ### IT Manager
-**Viewpointsystem GmbH** · Vienna, Austria · *2024 to present*
+**Viewpointsystem GmbH** · Vienna, Austria<br />
+![2024 to present](https://img.shields.io/badge/2024_to_present-167D8D?style=flat-square)
 
 - Diagnose and resolve staff hardware, software, and network issues across Windows and Linux environments.
 - Manage IT assets, inventory, licensing, and access rights throughout the asset lifecycle.
@@ -228,7 +249,8 @@ Eight selected publications across medical imaging, biomedical signals, navigati
 - Coordinate employee IT onboarding, software installation, and offboarding.
 
 ### Ph.D. Graduate Researcher
-**UESTC, China** · Radar Detection and Imaging Technology Lab · *2022 to 2026*
+**UESTC, China** · Radar Detection and Imaging Technology Lab<br />
+![2022 to 2026](https://img.shields.io/badge/2022_to_2026-7C5CFF?style=flat-square)
 
 - Developed and evaluated machine learning models for high-dimensional biomedical imaging data, with a focus on robust, interpretable, and reliable prediction.
 - Investigated class imbalance, dataset variation, and cross-domain generalisation.
@@ -236,7 +258,8 @@ Eight selected publications across medical imaging, biomedical signals, navigati
 - Evaluated model behaviour through statistical analysis, ablation studies, class-wise metrics, and interpretability methods.
 
 ### Master's Graduate Research Assistant
-**UESTC, China** · Media Lab · *2020 to 2022*
+**UESTC, China** · Media Lab<br />
+![2020 to 2022](https://img.shields.io/badge/2020_to_2022-FF7A59?style=flat-square)
 
 - Developed an Attention U-Net architecture for glioblastoma multiforme segmentation.
 - Used BraTS 2020 and 2021 for tumour sub-region training and validation.
@@ -313,7 +336,7 @@ I value clear technical communication, cross-functional collaboration, analytica
 
 ## Beyond research
 
-**Languages:** English · Chinese (HSK 4) · German (basic)
+![English](https://img.shields.io/badge/English-Fluent-167D8D?style=flat-square) ![Chinese](https://img.shields.io/badge/Chinese-HSK_4-EE4C2C?style=flat-square) ![German](https://img.shields.io/badge/German-Basic-F59E0B?style=flat-square)
 
 **Interests:** Hiking, volunteering, and reading scientific literature on AI, machine learning, business, and economics.
 
@@ -325,7 +348,9 @@ I value clear technical communication, cross-functional collaboration, analytica
 
 For research discussions and collaboration enquiries
 
-[Email](mailto:williamsayivi@gmail.com) &nbsp;·&nbsp; [Google Scholar](https://scholar.google.com/citations?hl=en&user=F-L0vowAAAAJ) &nbsp;·&nbsp; [ORCID](https://orcid.org/0009-0009-1982-3625)
+<a href="mailto:williamsayivi@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://scholar.google.com/citations?hl=en&user=F-L0vowAAAAJ"><img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar" /></a>
+<a href="https://orcid.org/0009-0009-1982-3625"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID" /></a>
 
 </div>
 
